@@ -1,0 +1,6 @@
+@track bass ch=2 prog=32
+  steps:
+  ^1
+  ^5
+  ^3
+  ^1

@@ -1,0 +1,106 @@
+{
+  "patterns": [
+    {
+      "name": "bass",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 1,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 5,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 2
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "bass",
+            "step_count": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "high",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 1,
+                  "accidental": 0,
+                  "octave": 6,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 5,
+                  "accidental": 0,
+                  "octave": 6,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 2
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "bass",
+            "step_count": 2
+          }
+        ]
+      }
+    }
+  ]
+}

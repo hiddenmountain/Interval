@@ -1,0 +1,12 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@harmony main
+| C | G | Am | F |
+
+@pattern p steps=1 unit=1/4
+^1
+
+@track mel ch=1 follow=main start=3
+play: p

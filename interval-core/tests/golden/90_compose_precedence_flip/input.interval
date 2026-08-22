@@ -1,0 +1,7 @@
+@pattern a steps=1 unit=1/4
+^1
+
+@pattern b steps=1 unit=1/4
+^3
+
+@pattern ab = a >> b -> reverse

@@ -1,0 +1,41 @@
+@title "Scale Timeline Crossover"
+@ppq 480
+@bpm 118
+@ts 4/4
+@seed 11
+
+@scale root=C mode=major * 4 | root=A mode=minor * 4
+
+@harmony main
+I | vi | IV | V
+i | bVI | bIII | bVII
+
+@pattern melody steps=8 unit=1/8
+^1
+^2
+^3
+^5
+^1/5
+^7
+^6
+^5
+
+@pattern comp steps=8 unit=1/8
+$chord
+~
+.
+.
+$chord
+~
+.
+.
+
+@track keys
+  ch=1 prog=6 vel=78 gate=0.80 oct=4
+  follow=main
+  play: comp * 8 -> arp(pattern=up)
+
+@track lead
+  ch=2 prog=65 vel=88 gate=0.86 oct=5
+  follow=main
+  play: melody * 8 -> rubato(0.12, arch)

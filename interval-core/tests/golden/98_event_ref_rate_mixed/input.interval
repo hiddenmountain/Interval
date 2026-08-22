@@ -1,0 +1,18 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@pattern a steps=2 unit=1/4
+C4
+E4
+
+@pattern b steps=2 unit=1/4
+G4
+C5
+
+@pattern c steps=2 unit=1/4
+E5
+C5
+
+@track mel ch=1
+play: a >> b@2.0 >> c@0.5

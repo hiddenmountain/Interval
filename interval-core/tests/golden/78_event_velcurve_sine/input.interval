@@ -1,0 +1,10 @@
+@ppq 480
+
+@pattern line steps=4 unit=1/4
+C4
+C4
+C4
+C4
+
+@track keys ch=1
+play: line -> vel_curve(wave=sine, min=40, max=110)

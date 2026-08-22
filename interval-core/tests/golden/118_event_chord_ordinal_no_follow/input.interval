@@ -1,0 +1,10 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@pattern solo steps=2 unit=1/4
+%1
+%3
+
+@track keys ch=1
+play: solo

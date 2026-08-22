@@ -1,0 +1,27 @@
+{
+  "patterns": [
+    {
+      "name": "mixed",
+      "steps": [
+        {
+          "pitches": [
+            60
+          ]
+        },
+        {
+          "pitches": [
+            64
+          ]
+        },
+        {
+          "pitches": [
+            72
+          ]
+        },
+        {
+          "pitches": []
+        }
+      ]
+    }
+  ]
+}

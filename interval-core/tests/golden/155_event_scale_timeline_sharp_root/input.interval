@@ -1,0 +1,13 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+@scale root=C# mode=minor * 4 | root=F# mode=major
+
+@pattern p steps=4 unit=1/4
+^1
+^2
+^3
+^4
+
+@track melody ch=1
+play: p * 2

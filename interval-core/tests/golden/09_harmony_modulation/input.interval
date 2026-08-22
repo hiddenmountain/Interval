@@ -1,0 +1,10 @@
+@ppq 480
+@bpm 112
+@ts 4/4
+
+@scale root=C mode=major
+
+@harmony main
+Cmaj7 | Am7 | Dm7 G7 | Cmaj7
+section: bar=5 mode=dorian root=D
+Dm7 | Gm7 | Am7 | Dm7

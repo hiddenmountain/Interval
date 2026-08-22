@@ -1,0 +1,5 @@
+@pattern bass steps=2 unit=1/4
+^1
+^5
+
+@pattern high = bass -> shift_oct(2)

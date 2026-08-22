@@ -1,0 +1,11 @@
+@ppq 480
+@seed 42
+
+@pattern melody steps=4 unit=1/4
+C4
+E4
+G4
+C5
+
+@track keys ch=1
+play: melody -> evolve(1.0)

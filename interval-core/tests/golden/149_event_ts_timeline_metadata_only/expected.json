@@ -1,0 +1,93 @@
+{
+  "ppq": 480,
+  "events": [
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 120.0
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "TimeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "TrackName": {
+          "name": "mel"
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 0,
+      "event": {
+        "TimeSignature": {
+          "numerator": 3,
+          "denominator": 4
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 3
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 1,
+      "event": {
+        "PatternBoundary": {
+          "track": 1,
+          "pattern_name": "p"
+        }
+      }
+    },
+    {
+      "tick": 4272,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 6720,
+      "track": 0,
+      "event": {
+        "TimeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        }
+      }
+    }
+  ]
+}

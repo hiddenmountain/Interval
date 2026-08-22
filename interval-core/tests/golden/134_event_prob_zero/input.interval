@@ -1,0 +1,12 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@pattern notes steps=4 unit=1/4
+^1[prob:0.0]
+^3[prob:0.0]
+^5[prob:0.0]
+^1[prob:0.0]
+
+@track melody ch=1
+play: notes

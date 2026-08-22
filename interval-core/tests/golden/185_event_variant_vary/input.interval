@@ -1,0 +1,13 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+@seed 19
+
+@pattern pool steps=4 unit=1/4
+{C4, E4, G4}
+{C4, E4, G4}
+{C4, E4, G4}
+C4
+
+@track keys ch=1
+play: pool -> vary(1.0)

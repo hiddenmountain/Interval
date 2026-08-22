@@ -1,0 +1,8 @@
+@ppq 480
+
+@pattern melody steps=2 unit=1/4
+C4
+E4
+
+@track piano ch=1
+play: melody

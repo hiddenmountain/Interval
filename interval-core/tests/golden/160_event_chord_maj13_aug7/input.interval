@@ -1,0 +1,13 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+@scale root=C mode=major
+
+@harmony
+Cmaj13 | Caug7 | Caugmaj7 | Cm13
+
+@pattern comp unit=1/1
+$chord
+
+@track keys ch=1 oct=4
+play: comp * 4

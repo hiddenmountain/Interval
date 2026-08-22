@@ -1,0 +1,45 @@
+{
+  "name": "lead",
+  "channel": 3,
+  "program": 73,
+  "unit": null,
+  "octave": 5,
+  "velocity": 100,
+  "gate": 0.8,
+  "shift": null,
+  "lshift": null,
+  "follow": "main",
+  "voice": "Drop2",
+  "inv": "Auto",
+  "seed": 42,
+  "mode": null,
+  "rate": null,
+  "swing": null,
+  "swing_unit": null,
+  "start": null,
+  "is_drum": false,
+  "drummap": null,
+  "content": {
+    "Play": {
+      "Concat": {
+        "left": {
+          "Ref": {
+            "name": "theme",
+            "rate": null
+          }
+        },
+        "right": {
+          "Repeat": {
+            "pattern": {
+              "Ref": {
+                "name": "bridge",
+                "rate": null
+              }
+            },
+            "count": 2
+          }
+        }
+      }
+    }
+  }
+}

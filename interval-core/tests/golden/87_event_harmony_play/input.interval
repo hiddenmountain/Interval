@@ -1,0 +1,15 @@
+@ppq 480
+@bpm 120
+
+@scale root=C mode=major
+
+@harmony chords play=true ch=2 prog=0 oct=3 vel=60 voice=triad
+C | G
+
+@pattern melody steps=2 unit=1/4
+^1
+^5
+
+@track lead ch=1
+follow=chords
+play: melody

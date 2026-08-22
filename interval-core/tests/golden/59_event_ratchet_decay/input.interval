@@ -1,0 +1,7 @@
+@ppq 480
+
+@pattern decaypat steps=1 unit=1/4
+C4[ratch:3 ratch_decay:0.7]
+
+@track keys ch=1 vel=100
+play: decaypat

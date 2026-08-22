@@ -1,0 +1,51 @@
+@title "Pachelbel Canon (Compact Study)"
+@ppq 480
+@bpm 96
+@ts 4/4
+@seed 1680
+
+@scale root=D mode=major
+
+@harmony ground
+I | V | vi | iii
+IV | I | IV | V
+
+@pattern bass_ground steps=8 unit=1/1
+%1
+%1
+%1
+%1
+%1
+%1
+%1
+%1
+
+@pattern canon_cell steps=8 unit=1/2
+^1
+^2
+^3
+^1
+^3
+^4
+^5
+^3
+
+@track bass
+  ch=1 prog=43 vel=78 gate=0.94 oct=2
+  follow=ground
+  play: bass_ground
+
+@track violin_a
+  ch=2 prog=41 vel=82 gate=0.90 oct=5
+  follow=ground
+  play: canon_cell
+
+@track violin_b
+  ch=3 prog=41 vel=76 gate=0.90 oct=5 start=3
+  follow=ground
+  play: canon_cell
+
+@track violin_c
+  ch=4 prog=41 vel=70 gate=0.90 oct=5 start=5
+  follow=ground
+  play: canon_cell

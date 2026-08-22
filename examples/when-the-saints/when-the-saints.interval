@@ -1,0 +1,68 @@
+@title "When the Saints Go Marching In (Opening Strain)"
+@ppq 480
+@bpm 132
+@ts 4/4
+@seed 1890
+
+@scale root=F mode=major
+
+@harmony main
+I | I | IV | I
+
+@pattern melody steps=16 unit=1/4
+^5
+^5
+^6
+^5
+^1/5
+^7
+^5
+^6
+^5
+^1/5
+^7
+^5
+^6
+^5
+^3
+^1
+
+@pattern bass_line steps=16 unit=1/4
+%1
+%5
+%1
+%5
+%1
+%5
+%1
+%5
+%1
+%3
+%1
+%3
+%1
+%5
+%1
+%5
+
+@pattern comp steps=8 unit=1/2
+$chord
+.
+$chord
+.
+$chord
+.
+$chord
+.
+
+@track lead
+  ch=1 prog=57 vel=96 gate=0.82 oct=5 swing=0.62 swingunit=1/8
+  play: melody
+
+@track piano
+  ch=2 prog=1 vel=74 gate=0.72 oct=4 voice=close inv=auto swing=0.62 swingunit=1/8
+  play: comp -> agogic(1, 5)
+
+@track bass
+  ch=3 prog=34 vel=82 gate=0.93 oct=3 swing=0.62 swingunit=1/8
+  play: bass_line

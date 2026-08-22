@@ -1,0 +1,8 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@scale root=A mode=minor
+
+@harmony main
+im7 | ivm7 | V7 | im7

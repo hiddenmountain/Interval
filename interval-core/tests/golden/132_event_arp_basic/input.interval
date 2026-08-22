@@ -1,0 +1,14 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@scale root=C mode=major
+
+@harmony main
+I
+
+@pattern chords steps=1 unit=1/4
+$chord
+
+@track melody ch=1 follow=main
+play: chords -> arp()

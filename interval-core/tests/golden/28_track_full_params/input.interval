@@ -1,0 +1,2 @@
+@track lead ch=3 prog=flute oct=5 vel=100 gate=0.8 voice=drop2 inv=auto seed=42 follow=main
+  play: theme >> bridge * 2

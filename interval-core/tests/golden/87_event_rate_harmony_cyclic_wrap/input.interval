@@ -1,0 +1,22 @@
+@bpm 120
+@ts 4/4
+@ppq 480
+@seed 1
+
+@scale root=C mode=major
+
+@harmony main
+| Cmaj7 | Fmaj7 |
+
+@pattern degrees steps=8 unit=1/4
+^1
+^3
+^5
+^7
+^1
+^3
+^5
+^7
+
+@track crawl ch=1 follow=main vel=80 gate=0.9 oct=4 rate=0.25
+play: degrees * 1

@@ -1,0 +1,56 @@
+{
+  "name": "melody",
+  "steps": 4,
+  "unit": [
+    1,
+    4
+  ],
+  "velocity": 84,
+  "gate": 0.9,
+  "octave": 4,
+  "transforms": [],
+  "body": {
+    "Steps": [
+      {
+        "tokens": [
+          {
+            "AbsolutePitch": {
+              "midi_note": 60,
+              "annotations": []
+            }
+          }
+        ]
+      },
+      {
+        "tokens": [
+          {
+            "AbsolutePitch": {
+              "midi_note": 64,
+              "annotations": []
+            }
+          }
+        ]
+      },
+      {
+        "tokens": [
+          {
+            "AbsolutePitch": {
+              "midi_note": 67,
+              "annotations": []
+            }
+          }
+        ]
+      },
+      {
+        "tokens": [
+          {
+            "AbsolutePitch": {
+              "midi_note": 72,
+              "annotations": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

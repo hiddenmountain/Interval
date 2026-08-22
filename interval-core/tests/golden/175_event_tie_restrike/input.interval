@@ -1,0 +1,10 @@
+@ppq 480
+
+@pattern re steps=4 unit=1/4 gate=1.0
+C4[dur:1/2]
+C4
+.
+.
+
+@track piano ch=1
+play: re

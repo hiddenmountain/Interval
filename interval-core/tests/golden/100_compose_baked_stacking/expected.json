@@ -1,0 +1,118 @@
+{
+  "patterns": [
+    {
+      "name": "base",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "AbsolutePitch": {
+                  "midi_note": 62,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "AbsolutePitch": {
+                  "midi_note": 66,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "AbsolutePitch": {
+                  "midi_note": 69,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 3
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "base",
+            "step_count": 3
+          }
+        ]
+      }
+    },
+    {
+      "name": "chain",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "AbsolutePitch": {
+                  "midi_note": 69,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "AbsolutePitch": {
+                  "midi_note": 66,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "AbsolutePitch": {
+                  "midi_note": 62,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 3
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "base",
+            "step_count": 3
+          }
+        ]
+      }
+    }
+  ]
+}

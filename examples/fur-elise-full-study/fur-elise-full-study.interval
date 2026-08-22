@@ -1,0 +1,195 @@
+@title "Fur Elise (Full Playable Study)"
+@ppq 480
+@bpm 112
+@ts 3/8
+@seed 1810
+
+@scale root=A mode=minor
+
+@harmony main
+Am | E7 | Am | E7 | Am | E7 | Am | E7
+Fmaj7 | C7 | Fmaj7 | E7 | Am | E7 | Am | E7
+Am | E7 | Am | E7 | Am | E7 | Am | E7
+Cmaj7 | G7 | Cmaj7 | E7 | Fmaj7 | Cmaj7 | E7 | Am
+Am | E7 | Am | E7 | Am | E7 | Am | E7
+
+// A section: iconic opening material
+@pattern a_theme steps=48 unit=1/16
+^5/4
+^b5/4
+^5/4
+^b5/4
+^5/4
+^2/4
+^4/4
+^3/4
+^1/4
+.
+^3/3
+^5/3
+^1/4
+^2/4
+.
+^5/3
+^#7/3
+^2/4
+^3/4
+.
+^5/3
+^5/4
+^b5/4
+^5/4
+^2/4
+^4/4
+^3/4
+^1/4
+.
+^3/3
+^5/3
+^1/4
+^2/4
+.
+^5/3
+^3/4
+^2/4
+^1/4
+.
+^5/3
+^5/4
+^b5/4
+^5/4
+^2/4
+^4/4
+^3/4
+^1/4
+.
+
+// B section: more lyrical contrast
+@pattern b_theme steps=48 unit=1/16
+^1/4
+~
+~
+^3/4
+~
+~
+^5/4
+~
+~
+^4/4
+~
+~
+^3/4
+^2/4
+^1/4
+^7/3
+^6/3
+^5/3
+^6/3
+^1/4
+^3/4
+^5/4
+^4/4
+^3/4
+^1/4
+~
+~
+^3/4
+~
+~
+^5/4
+^4/4
+^3/4
+^2/4
+^1/4
+^#7/3
+^5/3
+^#7/3
+^2/4
+^3/4
+^5/4
+^4/4
+^3/4
+^2/4
+^1/4
+~
+~
+~
+
+// C section: turbulent episode before the final return
+@pattern c_theme steps=48 unit=1/16
+^1/4
+^3/4
+^5/4
+^1/5
+^5/4
+^3/4
+^2/4
+^4/4
+^6/4
+^2/5
+^6/4
+^4/4
+^3/4
+^5/4
+^1/5
+^5/4
+^3/4
+^1/4
+^7/3
+^2/4
+^5/4
+^2/4
+^7/3
+^5/3
+^1/4
+^3/4
+^6/4
+^3/4
+^1/4
+^6/3
+^7/3
+^2/4
+^5/4
+^2/4
+^7/3
+^5/3
+^1/4
+^3/4
+^5/4
+^3/4
+^2/4
+^#7/3
+^5/3
+^#7/3
+^2/4
+^3/4
+^5/4
+.
+
+@pattern bass_bar steps=3 unit=1/8
+%1
+.
+%1
+
+@pattern broken_bar steps=6 unit=1/16
+%2
+%3
+%4
+%3
+%2
+%3
+
+@track melody
+  ch=1 prog=1 vel=96 gate=0.88
+  follow=main
+  play: a_theme >> b_theme >> a_theme >> c_theme >> a_theme
+
+@track accompaniment
+  ch=2 prog=1 vel=68 gate=0.78 oct=4
+  follow=main
+  play: broken_bar * 40
+
+@track bass
+  ch=3 prog=1 vel=72 gate=0.96 oct=2
+  follow=main
+  play: bass_bar * 40

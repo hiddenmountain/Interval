@@ -1,0 +1,5 @@
+@pattern motif steps=2 unit=1/4
+^1
+^5
+
+@pattern soft = motif *~3

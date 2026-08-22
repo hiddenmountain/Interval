@@ -1,0 +1,112 @@
+{
+  "ppq": 480,
+  "events": [
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 120.0
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "TimeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "TrackName": {
+          "name": "t"
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 1
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "PatternBoundary": {
+          "track": 1,
+          "pattern_name": "p"
+        }
+      }
+    },
+    {
+      "tick": 10,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 69,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 1738,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 69
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 240.0
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 2
+        }
+      }
+    },
+    {
+      "tick": 1939,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 69,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 3667,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 69
+        }
+      }
+    }
+  ]
+}

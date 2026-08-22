@@ -1,0 +1,8 @@
+@ppq 480
+
+@pattern groove steps=2 unit=1/4
+C4[shift:5%]
+E4
+
+@track piano ch=1
+play: groove

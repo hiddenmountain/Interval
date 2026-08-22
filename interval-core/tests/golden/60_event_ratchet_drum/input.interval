@@ -1,0 +1,13 @@
+@ppq 480
+
+@drummap
+kick = 36
+snare = 38
+hh = 42
+
+@pattern drumpat steps=2 unit=1/4
+kick[ratch:4]
+snare
+
+@track perc ch=10 type=drums
+play: drumpat

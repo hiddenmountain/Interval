@@ -1,0 +1,13 @@
+@ppq 480
+@ts 4/4
+@bpm
+120 * 2
+140 * 2
+160
+
+@pattern p steps=2 unit=1/4
+C4
+E4
+
+@track melody ch=1
+play: p

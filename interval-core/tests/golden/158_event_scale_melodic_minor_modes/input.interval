@@ -1,0 +1,14 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+// Test all four new melodic minor modes via @scale timeline
+@scale root=C mode=dorian_b2 * 1 | mode=lydian_augmented * 1 | mode=mixolydian_b6 * 1 | mode=locrian_nat2
+
+@pattern p unit=1/4
+^1
+^3
+^5
+^7
+
+@track melody ch=1
+play: p

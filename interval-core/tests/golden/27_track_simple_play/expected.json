@@ -1,0 +1,37 @@
+{
+  "name": "bass",
+  "channel": 1,
+  "program": 32,
+  "unit": null,
+  "octave": 4,
+  "velocity": 84,
+  "gate": 0.9,
+  "shift": null,
+  "lshift": null,
+  "follow": null,
+  "voice": "Close",
+  "inv": {
+    "Fixed": 0
+  },
+  "seed": null,
+  "mode": null,
+  "rate": null,
+  "swing": null,
+  "swing_unit": null,
+  "start": null,
+  "is_drum": false,
+  "drummap": null,
+  "content": {
+    "Play": {
+      "Repeat": {
+        "pattern": {
+          "Ref": {
+            "name": "motif",
+            "rate": null
+          }
+        },
+        "count": 4
+      }
+    }
+  }
+}

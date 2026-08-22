@@ -1,0 +1,3 @@
+{
+  "error": "track 'keys': $chord requires follow= to reference a harmony block"
+}

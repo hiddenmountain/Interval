@@ -1,0 +1,10 @@
+@ppq 480
+@bpm 120 * 1 | 240
+@ts 4/4
+
+@pattern p steps=2 unit=1/1
+A4[shift:10ms]
+A4[shift:10ms]
+
+@track t ch=1
+play: p

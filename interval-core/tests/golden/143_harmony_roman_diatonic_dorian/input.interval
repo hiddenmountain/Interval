@@ -1,0 +1,8 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@scale root=D mode=dorian
+
+@harmony main
+i | ii | III | IV | v | vi | VII

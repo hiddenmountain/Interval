@@ -1,0 +1,220 @@
+{
+  "ppq": 480,
+  "events": [
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 120.0
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "TimeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "TrackName": {
+          "name": "mel"
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 1
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "PatternBoundary": {
+          "track": 1,
+          "pattern_name": "chord"
+        }
+      }
+    },
+    {
+      "tick": 216,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 240,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 456,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 480,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 696,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 720,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 936,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 960,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 1176,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 1200,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 1416,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 1440,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 1656,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 1680,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 1896,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 64
+        }
+      }
+    }
+  ]
+}

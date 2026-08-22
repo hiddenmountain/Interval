@@ -1,0 +1,10 @@
+@pattern intro steps=1 unit=1/4
+^1
+
+@pattern verse steps=1 unit=1/4
+^3
+
+@pattern outro steps=1 unit=1/4
+^5
+
+@pattern song = intro ~>> verse *2 >> outro

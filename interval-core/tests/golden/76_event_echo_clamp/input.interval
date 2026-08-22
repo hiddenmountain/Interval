@@ -1,0 +1,10 @@
+@ppq 480
+
+@pattern hit steps=4 unit=1/4
+C4
+.
+C4
+.
+
+@track keys ch=1
+play: hit -> echo(1/4, 3, 0.6)

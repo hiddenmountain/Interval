@@ -1,0 +1,21 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@scale root=C mode=major
+
+@harmony
+I | vi | IV | V
+
+@harmony
+ii | V | I | I
+
+@pattern p steps=4 unit=1/4
+$chord
+.
+$chord
+.
+
+@track lead
+  ch=1
+  play: p

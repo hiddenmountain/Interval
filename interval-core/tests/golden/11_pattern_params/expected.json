@@ -1,0 +1,40 @@
+{
+  "name": "melody",
+  "steps": 2,
+  "unit": [
+    1,
+    8
+  ],
+  "velocity": 100,
+  "gate": 0.8,
+  "octave": 5,
+  "transforms": [],
+  "body": {
+    "Steps": [
+      {
+        "tokens": [
+          {
+            "Degree": {
+              "degree": 1,
+              "accidental": 0,
+              "octave": null,
+              "annotations": []
+            }
+          }
+        ]
+      },
+      {
+        "tokens": [
+          {
+            "Degree": {
+              "degree": 5,
+              "accidental": 0,
+              "octave": null,
+              "annotations": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

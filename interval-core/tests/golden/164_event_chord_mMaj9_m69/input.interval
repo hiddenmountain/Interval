@@ -1,0 +1,13 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+@scale root=C mode=major
+
+@harmony
+CmMaj9 | Cm6/9 | Cadd2 | C7sus2
+
+@pattern comp unit=1/1
+$chord
+
+@track keys ch=1 oct=4
+play: comp * 4

@@ -1,0 +1,13 @@
+@ppq 480
+@bpm 120
+@ts 4/4 * 2 | 3/4 * 2
+@scale root=C mode=major
+
+@harmony
+C | G | Am | F
+
+@pattern p unit=1/4
+^1 ^3 ^5 ^7
+
+@track mel ch=1 oct=4
+play: p * 4

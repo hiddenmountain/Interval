@@ -1,0 +1,14 @@
+@ppq 480
+
+@pattern beat steps=8 unit=1/8
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+C4
+
+@track keys ch=1
+play: beat -> euclid_gate(5, 8)

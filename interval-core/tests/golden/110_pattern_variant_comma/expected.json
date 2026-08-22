@@ -1,0 +1,68 @@
+{
+  "name": "var",
+  "steps": 2,
+  "unit": [
+    1,
+    4
+  ],
+  "velocity": 84,
+  "gate": 0.9,
+  "octave": 4,
+  "transforms": [],
+  "body": {
+    "Steps": [
+      {
+        "tokens": [
+          {
+            "Variant": {
+              "alternatives": [
+                [
+                  {
+                    "Degree": {
+                      "degree": 1,
+                      "accidental": 0,
+                      "octave": null,
+                      "annotations": []
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Degree": {
+                      "degree": 3,
+                      "accidental": 0,
+                      "octave": null,
+                      "annotations": []
+                    }
+                  }
+                ],
+                [
+                  {
+                    "Degree": {
+                      "degree": 5,
+                      "accidental": 0,
+                      "octave": null,
+                      "annotations": []
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "tokens": [
+          {
+            "Degree": {
+              "degree": 1,
+              "accidental": 0,
+              "octave": null,
+              "annotations": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

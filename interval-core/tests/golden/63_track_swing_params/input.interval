@@ -1,0 +1,5 @@
+@pattern dummy steps=1 unit=1/4
+C4
+
+@track swinger ch=1 swing=0.62 swingunit=1/16
+play: dummy

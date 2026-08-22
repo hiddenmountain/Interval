@@ -1,0 +1,13 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+@scale root=G mode=major * 4 | mode=dorian * 4 | root=D
+
+@pattern p steps=4 unit=1/4
+^1
+^3
+^5
+^7
+
+@track melody ch=1
+play: p * 12

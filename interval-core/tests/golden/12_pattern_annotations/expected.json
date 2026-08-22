@@ -1,0 +1,75 @@
+{
+  "name": "expressive",
+  "steps": 3,
+  "unit": [
+    1,
+    4
+  ],
+  "velocity": 84,
+  "gate": 0.9,
+  "octave": 4,
+  "transforms": [],
+  "body": {
+    "Steps": [
+      {
+        "tokens": [
+          {
+            "Degree": {
+              "degree": 1,
+              "accidental": 0,
+              "octave": null,
+              "annotations": [
+                {
+                  "Vel": 100
+                },
+                {
+                  "Gate": 0.5
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "tokens": [
+          {
+            "Degree": {
+              "degree": 3,
+              "accidental": 0,
+              "octave": null,
+              "annotations": [
+                {
+                  "Expr": {
+                    "Ramp": {
+                      "start": 64,
+                      "end": 127
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "tokens": [
+          {
+            "Degree": {
+              "degree": 5,
+              "accidental": 0,
+              "octave": null,
+              "annotations": [
+                {
+                  "Dur": [
+                    1,
+                    8
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+@pattern cond_test steps=4 unit=1/4
+^1[every:2]
+^3[cond:2:3]
+^5[once]
+^1[pre]

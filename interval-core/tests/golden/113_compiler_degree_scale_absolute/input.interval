@@ -1,0 +1,12 @@
+@ppq 480
+
+@scale root=C mode=major
+
+@harmony main
+| Dm7 | Am7 |
+
+@pattern melody steps=4 unit=1/4
+^1
+^3
+^5
+^7

@@ -1,0 +1,15 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@harmony main
+| C | G |
+
+@pattern comp steps=4 unit=1/4
+$chord
+.
+$chord
+.
+
+@track keys ch=1 follow=main
+play: comp

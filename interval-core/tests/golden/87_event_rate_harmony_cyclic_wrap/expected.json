@@ -1,0 +1,292 @@
+{
+  "ppq": 480,
+  "events": [
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 120.0
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "TimeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "TextMeta": {
+          "text": "seed:1"
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "TrackName": {
+          "name": "crawl"
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 1
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "PatternBoundary": {
+          "track": 1,
+          "pattern_name": "degrees"
+        }
+      }
+    },
+    {
+      "tick": 1728,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 2
+        }
+      }
+    },
+    {
+      "tick": 3648,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 3
+        }
+      }
+    },
+    {
+      "tick": 5568,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 5760,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 71,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 5760,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 4
+        }
+      }
+    },
+    {
+      "tick": 7488,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 71
+        }
+      }
+    },
+    {
+      "tick": 7680,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 7680,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 5
+        }
+      }
+    },
+    {
+      "tick": 9408,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 9600,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 9600,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 6
+        }
+      }
+    },
+    {
+      "tick": 11328,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 11520,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 11520,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 7
+        }
+      }
+    },
+    {
+      "tick": 13248,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 13440,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 71,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 13440,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 8
+        }
+      }
+    },
+    {
+      "tick": 15168,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 71
+        }
+      }
+    }
+  ]
+}

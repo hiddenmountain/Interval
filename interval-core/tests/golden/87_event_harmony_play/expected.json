@@ -1,0 +1,239 @@
+{
+  "ppq": 480,
+  "events": [
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 120.0
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "TimeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "TrackName": {
+          "name": "chords"
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 2,
+      "event": {
+        "TrackName": {
+          "name": "lead"
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "ProgramChange": {
+          "channel": 1,
+          "program": 0
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 48,
+          "velocity": 60
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 52,
+          "velocity": 60
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 55,
+          "velocity": 60
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 2,
+      "event": {
+        "BarMarker": {
+          "bar": 1
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 2,
+      "event": {
+        "PatternBoundary": {
+          "track": 2,
+          "pattern_name": "melody"
+        }
+      }
+    },
+    {
+      "tick": 432,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 480,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 912,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 48
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 52
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 55
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 55,
+          "velocity": 60
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 59,
+          "velocity": 60
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 62,
+          "velocity": 60
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 55
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 59
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 62
+        }
+      }
+    }
+  ]
+}

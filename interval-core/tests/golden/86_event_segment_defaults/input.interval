@@ -1,0 +1,12 @@
+@ppq 480
+
+@pattern soft steps=2 unit=1/4 vel=30 gate=0.5 oct=3
+C4
+E4
+
+@pattern loud steps=2 unit=1/4 vel=100 gate=0.8 oct=5
+G4
+B4
+
+@track test ch=1
+play: soft >> loud

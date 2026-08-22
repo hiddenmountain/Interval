@@ -1,0 +1,18 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@pattern lead steps=4 unit=1/8
+C4
+E4
+G4
+C5
+
+@pattern tail steps=4 unit=1/8
+G4
+E4
+C4
+G3
+
+@track keys ch=1 swing=0.6 swingunit=1/8
+play: (lead -> swing(0.75, 1/8)) >> tail

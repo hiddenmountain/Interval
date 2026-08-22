@@ -1,0 +1,35 @@
+{
+  "name": "combined",
+  "steps": 0,
+  "unit": [
+    0,
+    1
+  ],
+  "velocity": 84,
+  "gate": 0.9,
+  "octave": 4,
+  "transforms": [],
+  "body": {
+    "Expression": {
+      "Concat": {
+        "left": {
+          "Ref": {
+            "name": "intro",
+            "rate": null
+          }
+        },
+        "right": {
+          "Repeat": {
+            "pattern": {
+              "Ref": {
+                "name": "verse",
+                "rate": null
+              }
+            },
+            "count": 2
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@title "002"
+@ppq 480
+@bpm 126
+@ts 7/8
+@seed 77
+
+@scale root=A mode=minor
+
+@harmony vamp
+im7 | bVImaj7 | bVII7 | im7
+
+@pattern arp_template steps=7 unit=1/8
+%1+%2+%3+%4
+.
+.
+%2+%3+%4
+.
+.
+.
+
+@pattern bass steps=7 unit=1/8
+%1
+.
+%1
+.
+%3
+.
+%4
+
+@drummap kit
+  kick = 36
+  snare = 38
+  hh = 42
+
+@pattern groove steps=7 unit=1/8
+kick+hh
+hh
+snare+hh
+hh
+kick+hh
+snare
+hh
+
+@track synth
+  ch=1 prog=81 vel=94 gate=0.90 oct=4
+  follow=vamp
+  play: arp_template -> arp(pattern=updown) * 4
+
+@track bass
+  ch=2 prog=38 vel=84 gate=0.92 oct=2
+  follow=vamp
+  play: bass * 4
+
+@track rhythm
+  ch=10 type=drums drummap=kit vel=100
+  play: groove * 4 -> humanize(2%, 0.20)

@@ -1,0 +1,10 @@
+@ppq 480
+
+@pattern swingpat steps=4 unit=1/8
+C4
+E4
+G4
+C5
+
+@track keys ch=1 swing=0.67 swingunit=1/8
+play: swingpat

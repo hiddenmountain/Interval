@@ -1,0 +1,138 @@
+{
+  "patterns": [
+    {
+      "name": "base",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "AbsolutePitch": {
+                  "midi_note": 60,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "AbsolutePitch": {
+                  "midi_note": 64,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "AbsolutePitch": {
+                  "midi_note": 67,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "AbsolutePitch": {
+                  "midi_note": 71,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 4
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "base",
+            "step_count": 4
+          }
+        ]
+      }
+    },
+    {
+      "name": "chain",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "AbsolutePitch": {
+                  "midi_note": 83,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "AbsolutePitch": {
+                  "midi_note": 79,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "AbsolutePitch": {
+                  "midi_note": 76,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "AbsolutePitch": {
+                  "midi_note": 72,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 4
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "base",
+            "step_count": 4
+          }
+        ]
+      }
+    }
+  ]
+}

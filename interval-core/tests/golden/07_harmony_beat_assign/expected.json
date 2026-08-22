@@ -1,0 +1,77 @@
+{
+  "header": {
+    "ppq": 480,
+    "bpm": 120.0,
+    "ts_numerator": 4,
+    "ts_denominator": 4,
+    "title": null,
+    "seed": null
+  },
+  "harmony_name": "main",
+  "total_ticks": 3840,
+  "spans": [
+    {
+      "start_tick": 0,
+      "end_tick": 1440,
+      "chord_root": 2,
+      "intervals": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "mode_intervals": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "scale_root": 0
+    },
+    {
+      "start_tick": 1440,
+      "end_tick": 1920,
+      "chord_root": 7,
+      "intervals": [
+        0,
+        4,
+        7,
+        10
+      ],
+      "mode_intervals": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "scale_root": 0
+    },
+    {
+      "start_tick": 1920,
+      "end_tick": 3840,
+      "chord_root": 0,
+      "intervals": [
+        0,
+        4,
+        7,
+        11
+      ],
+      "mode_intervals": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "scale_root": 0
+    }
+  ]
+}

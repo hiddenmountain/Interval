@@ -1,0 +1,10 @@
+@ppq 480
+
+@pattern rubpat steps=4 unit=1/4
+C4
+E4
+G4
+C5
+
+@track keys ch=1
+play: rubpat -> rubato(0.3, arch)

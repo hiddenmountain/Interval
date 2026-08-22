@@ -1,0 +1,10 @@
+@ppq 480
+
+@harmony main
+| C |
+
+@pattern melody steps=4 unit=1/4
+^1/5
+^3/5
+^5/5
+^1

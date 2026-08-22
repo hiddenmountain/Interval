@@ -1,0 +1,79 @@
+{
+  "patterns": [
+    {
+      "name": "p",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 7,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 5,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 3,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 1,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 4
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "p",
+            "step_count": 4
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+@track bass ch=1 prog=32
+  play: motif * 4

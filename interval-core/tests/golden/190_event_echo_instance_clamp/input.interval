@@ -1,0 +1,10 @@
+@ppq 480
+
+@pattern tail steps=4 unit=1/4 gate=1.0
+.
+.
+.
+C4
+
+@track keys ch=1
+play: tail * 2 -> echo(1/8, 3, 0.6)

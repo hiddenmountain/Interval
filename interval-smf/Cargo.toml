@@ -1,0 +1,21 @@
+[package]
+name = "interval-smf"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+description = "Interval SMF renderer: converts EventStream to Standard MIDI File"
+readme = "../README.md"
+keywords = ["midi", "music", "smf", "composition"]
+categories = ["multimedia::audio", "encoding"]
+
+[dependencies]
+interval-core = { version = "0.10.0", path = "../interval-core" }
+midly = "0.5"
+thiserror = "2"
+
+[dev-dependencies]
+serde_json = "1"
+anyhow = "1"

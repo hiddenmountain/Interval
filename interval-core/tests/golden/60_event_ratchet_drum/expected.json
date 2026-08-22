@@ -1,0 +1,157 @@
+{
+  "ppq": 480,
+  "events": [
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 120.0
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "TimeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "TrackName": {
+          "name": "perc"
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 9,
+          "note": 36,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 1
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "PatternBoundary": {
+          "track": 1,
+          "pattern_name": "drumpat"
+        }
+      }
+    },
+    {
+      "tick": 108,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 9,
+          "note": 36
+        }
+      }
+    },
+    {
+      "tick": 120,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 9,
+          "note": 36,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 228,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 9,
+          "note": 36
+        }
+      }
+    },
+    {
+      "tick": 240,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 9,
+          "note": 36,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 348,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 9,
+          "note": 36
+        }
+      }
+    },
+    {
+      "tick": 360,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 9,
+          "note": 36,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 468,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 9,
+          "note": 36
+        }
+      }
+    },
+    {
+      "tick": 480,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 9,
+          "note": 38,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 912,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 9,
+          "note": 38
+        }
+      }
+    }
+  ]
+}

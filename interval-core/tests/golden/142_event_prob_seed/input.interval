@@ -1,0 +1,13 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+@seed 42
+
+@pattern notes steps=4 unit=1/4
+^1[prob:0.5]
+^3[prob:0.5]
+^5[prob:0.5]
+^1[prob:0.5]
+
+@track melody ch=1
+play: notes

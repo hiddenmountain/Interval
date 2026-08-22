@@ -1,0 +1,2 @@
+@track perc ch=10 type=drums drummap=kit vel=95
+  play: groove * 4

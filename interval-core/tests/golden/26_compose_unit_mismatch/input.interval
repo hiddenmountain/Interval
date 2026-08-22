@@ -1,0 +1,7 @@
+@pattern fast steps=1 unit=1/8
+^1
+
+@pattern slow steps=1 unit=1/4
+^5
+
+@pattern bad = fast >> slow

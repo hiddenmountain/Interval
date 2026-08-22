@@ -1,0 +1,14 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+@scale root=C mode=major
+
+@harmony
+Cmaj7 | Am7
+
+@pattern comp unit=1/2
+$chord
+$chord
+
+@track keys ch=1 oct=4 voice=drop3
+play: comp

@@ -1,0 +1,16 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+@scale root=C mode=major
+
+@harmony
+C | G
+
+@pattern a unit=1/4 vel=100
+^1 ^2 ^3 ^4
+
+@pattern b unit=1/4 vel=60
+^5 ^6 ^7 ^1
+
+@track mel ch=1 oct=4
+play: (a >> b) -> rotate(2)

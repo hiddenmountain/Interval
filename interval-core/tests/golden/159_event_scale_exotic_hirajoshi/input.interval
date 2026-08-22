@@ -1,0 +1,14 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+@scale root=D mode=hirajoshi
+
+// Hirajoshi: 0 2 3 7 8 — 5-note Japanese scale
+@pattern p unit=1/4
+^1
+^2
+^3
+^4
+
+@track melody ch=1
+play: p

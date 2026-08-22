@@ -1,0 +1,11 @@
+@ppq 480
+@ts 4/4
+
+@pattern fourbeats steps=4 unit=1/4
+C4
+E4
+G4
+C5
+
+@track piano ch=1
+play: fourbeats

@@ -1,0 +1,10 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@pattern p steps=2 unit=1/4
+(C4+E4 G4)
+.
+
+@track m ch=1
+play: p

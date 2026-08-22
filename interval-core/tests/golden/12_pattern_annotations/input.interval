@@ -1,0 +1,4 @@
+@pattern expressive steps=3 unit=1/4
+^1[vel:100 gate:0.5]
+^3[expr:64->127]
+^5[dur:1/8]

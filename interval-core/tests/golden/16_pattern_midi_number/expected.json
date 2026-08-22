@@ -1,0 +1,46 @@
+{
+  "name": "fixed",
+  "steps": 3,
+  "unit": [
+    1,
+    4
+  ],
+  "velocity": 84,
+  "gate": 0.9,
+  "octave": 4,
+  "transforms": [],
+  "body": {
+    "Steps": [
+      {
+        "tokens": [
+          {
+            "MidiNumber": {
+              "note": 60,
+              "annotations": []
+            }
+          }
+        ]
+      },
+      {
+        "tokens": [
+          {
+            "MidiNumber": {
+              "note": 64,
+              "annotations": []
+            }
+          }
+        ]
+      },
+      {
+        "tokens": [
+          {
+            "MidiNumber": {
+              "note": 67,
+              "annotations": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

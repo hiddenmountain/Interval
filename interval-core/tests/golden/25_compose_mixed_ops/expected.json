@@ -1,0 +1,233 @@
+{
+  "patterns": [
+    {
+      "name": "intro",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 1,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 1
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "intro",
+            "step_count": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "verse",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 3,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 1
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "verse",
+            "step_count": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "outro",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 5,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 1
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "outro",
+            "step_count": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "song",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 1,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 3,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 3,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 5,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [
+          "Soft",
+          "Hard",
+          "Hard"
+        ],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 1
+          },
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 1
+          },
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 1
+          },
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 1
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "intro",
+            "step_count": 1
+          },
+          {
+            "name": "verse",
+            "step_count": 1
+          },
+          {
+            "name": "verse",
+            "step_count": 1
+          },
+          {
+            "name": "outro",
+            "step_count": 1
+          }
+        ]
+      }
+    }
+  ]
+}

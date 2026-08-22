@@ -1,0 +1,179 @@
+{
+  "patterns": [
+    {
+      "name": "motif",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 1,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 5,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 2
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "motif",
+            "step_count": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "soft",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 1,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 5,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 1,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 5,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 1,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 5,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [
+          "Soft",
+          "Soft"
+        ],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 2
+          },
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 2
+          },
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 2
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "motif",
+            "step_count": 2
+          },
+          {
+            "name": "motif",
+            "step_count": 2
+          },
+          {
+            "name": "motif",
+            "step_count": 2
+          }
+        ]
+      }
+    }
+  ]
+}

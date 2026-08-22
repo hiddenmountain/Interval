@@ -1,0 +1,29 @@
+{
+  "patterns": [
+    {
+      "name": "melody",
+      "steps": [
+        {
+          "pitches": [
+            72
+          ]
+        },
+        {
+          "pitches": [
+            76
+          ]
+        },
+        {
+          "pitches": [
+            79
+          ]
+        },
+        {
+          "pitches": [
+            60
+          ]
+        }
+      ]
+    }
+  ]
+}

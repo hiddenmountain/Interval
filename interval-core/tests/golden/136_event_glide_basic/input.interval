@@ -1,0 +1,12 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@scale root=C mode=major
+
+@pattern melody steps=2 unit=1/4
+^1[glide]
+^3
+
+@track lead ch=1
+play: melody

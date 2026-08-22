@@ -1,0 +1,146 @@
+{
+  "patterns": [
+    {
+      "name": "a",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 1,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 1
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "a",
+            "step_count": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "b",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 3,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 1
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "b",
+            "step_count": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "ab",
+      "resolved": {
+        "unit": [
+          1,
+          4
+        ],
+        "steps": [
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 3,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          },
+          {
+            "tokens": [
+              {
+                "Degree": {
+                  "degree": 1,
+                  "accidental": 0,
+                  "octave": null,
+                  "annotations": []
+                }
+              }
+            ]
+          }
+        ],
+        "boundaries": [
+          "Hard"
+        ],
+        "segment_defaults": [
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 1
+          },
+          {
+            "velocity": 84,
+            "gate": 0.9,
+            "octave": 4,
+            "rate": 1.0,
+            "step_count": 1
+          }
+        ],
+        "pattern_instances": [
+          {
+            "name": "b",
+            "step_count": 1
+          },
+          {
+            "name": "a",
+            "step_count": 1
+          }
+        ]
+      }
+    }
+  ]
+}

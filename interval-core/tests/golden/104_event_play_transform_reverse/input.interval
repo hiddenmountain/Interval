@@ -1,0 +1,12 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@pattern p steps=4 unit=1/4
+C4
+E4
+G4
+C5
+
+@track melody ch=1
+play: p -> reverse

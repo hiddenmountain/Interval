@@ -1,0 +1,59 @@
+@title "Fur Elise Opening (Compact Study)"
+@ppq 480
+@bpm 116
+@ts 3/8
+@seed 1810
+
+@scale root=A mode=minor
+
+@harmony
+im | V7 | im | V7
+im | V7 | im | V7
+
+@pattern theme steps=24 unit=1/16
+E5
+Eb5
+E5
+Eb5
+E5
+B4
+D5
+C5
+A4
+.
+C4
+E4
+A4
+B4
+.
+E4
+Ab4
+B4
+C5
+.
+E4
+E5
+Eb5
+E5
+
+@pattern left_hand steps=12 unit=1/8
+%1
+.
+%5
+.
+%1
+.
+%5
+.
+%1
+.
+%5
+.
+
+@track melody
+  ch=1 prog=1 vel=96 gate=0.88
+  play: theme * 2
+
+@track bass
+  ch=2 prog=1 vel=68 gate=0.96 oct=3
+  play: left_hand * 2

@@ -1,0 +1,10 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@scale root=C mode=major
+
+@harmony main
+Cmaj7
+  steps: Bbmaj7 Bbmaj7 Amaj7 Amaj7 Abmaj7 Abmaj7 Gmaj7 Gmaj7
+Fmaj7

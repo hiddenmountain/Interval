@@ -1,0 +1,8 @@
+@ppq 480
+@bpm 138
+@ts 4/4
+
+@scale root=C mode=major
+
+@harmony main
+Cmaj7 | Am7 | Dm7 G7 | Cmaj7

@@ -1,0 +1,9 @@
+@ppq 480
+
+@pattern condpat steps=3 unit=1/4
+C4[every:2]
+E4[once]
+G4
+
+@track keys ch=1
+play: condpat

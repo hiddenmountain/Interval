@@ -1,0 +1,3 @@
+{
+  "error": "`|` is no longer the transform pipe in v0.5 — use `->` instead (e.g., `pat -> reverse`)"
+}

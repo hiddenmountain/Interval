@@ -1,0 +1,1314 @@
+{
+  "ppq": 480,
+  "events": [
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 120.0
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "TimeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "TextMeta": {
+          "text": "seed:1"
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "TrackName": {
+          "name": "normal"
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 2,
+      "event": {
+        "TrackName": {
+          "name": "fast"
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 3,
+      "event": {
+        "TrackName": {
+          "name": "slow"
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 1
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 2,
+      "event": {
+        "BarMarker": {
+          "bar": 1
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 3,
+      "event": {
+        "BarMarker": {
+          "bar": 1
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "PatternBoundary": {
+          "track": 1,
+          "pattern_name": "root_walk"
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 2,
+      "event": {
+        "PatternBoundary": {
+          "track": 2,
+          "pattern_name": "root_walk"
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 3,
+      "event": {
+        "PatternBoundary": {
+          "track": 3,
+          "pattern_name": "root_walk"
+        }
+      }
+    },
+    {
+      "tick": 216,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 240,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 432,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 456,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 480,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 480,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 696,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 720,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 71,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 864,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 912,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 936,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 71
+        }
+      }
+    },
+    {
+      "tick": 960,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 960,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 960,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 960,
+      "track": 2,
+      "event": {
+        "PatternBoundary": {
+          "track": 2,
+          "pattern_name": "root_walk"
+        }
+      }
+    },
+    {
+      "tick": 1176,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 1200,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 1392,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 1416,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 1440,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 71,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 1440,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 1656,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 1680,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 71,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 1824,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 1872,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 71
+        }
+      }
+    },
+    {
+      "tick": 1896,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 71
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 2
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 2,
+      "event": {
+        "BarMarker": {
+          "bar": 2
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 3,
+      "event": {
+        "BarMarker": {
+          "bar": 2
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 1,
+      "event": {
+        "PatternBoundary": {
+          "track": 1,
+          "pattern_name": "root_walk"
+        }
+      }
+    },
+    {
+      "tick": 1920,
+      "track": 2,
+      "event": {
+        "PatternBoundary": {
+          "track": 2,
+          "pattern_name": "root_walk"
+        }
+      }
+    },
+    {
+      "tick": 2136,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 2160,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 2352,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 2376,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 2400,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 2400,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 2616,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 2640,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 71,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 2784,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 2832,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 2856,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 71
+        }
+      }
+    },
+    {
+      "tick": 2880,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 2880,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 2880,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 71,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 2880,
+      "track": 2,
+      "event": {
+        "PatternBoundary": {
+          "track": 2,
+          "pattern_name": "root_walk"
+        }
+      }
+    },
+    {
+      "tick": 3096,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 3120,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 3312,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 3336,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 3360,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 71,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 3360,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 3576,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 3600,
+      "track": 2,
+      "event": {
+        "NoteOn": {
+          "channel": 1,
+          "note": 71,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 3744,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 71
+        }
+      }
+    },
+    {
+      "tick": 3792,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 71
+        }
+      }
+    },
+    {
+      "tick": 3816,
+      "track": 2,
+      "event": {
+        "NoteOff": {
+          "channel": 1,
+          "note": 71
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 3
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 3,
+      "event": {
+        "BarMarker": {
+          "bar": 3
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 1,
+      "event": {
+        "PatternBoundary": {
+          "track": 1,
+          "pattern_name": "root_walk"
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 3,
+      "event": {
+        "PatternBoundary": {
+          "track": 3,
+          "pattern_name": "root_walk"
+        }
+      }
+    },
+    {
+      "tick": 4272,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 4320,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 4704,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 4752,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 4800,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 4800,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 5232,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 5280,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 71,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 5664,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 5712,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 71
+        }
+      }
+    },
+    {
+      "tick": 5760,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 5760,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 5760,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 4
+        }
+      }
+    },
+    {
+      "tick": 5760,
+      "track": 3,
+      "event": {
+        "BarMarker": {
+          "bar": 4
+        }
+      }
+    },
+    {
+      "tick": 5760,
+      "track": 1,
+      "event": {
+        "PatternBoundary": {
+          "track": 1,
+          "pattern_name": "root_walk"
+        }
+      }
+    },
+    {
+      "tick": 6192,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 6240,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 6624,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 6672,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 6720,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 6720,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 71,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 7152,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 7200,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 71,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 7584,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 71
+        }
+      }
+    },
+    {
+      "tick": 7632,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 71
+        }
+      }
+    },
+    {
+      "tick": 7680,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 7680,
+      "track": 3,
+      "event": {
+        "BarMarker": {
+          "bar": 5
+        }
+      }
+    },
+    {
+      "tick": 7680,
+      "track": 3,
+      "event": {
+        "PatternBoundary": {
+          "track": 3,
+          "pattern_name": "root_walk"
+        }
+      }
+    },
+    {
+      "tick": 8544,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 8640,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 9504,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 9600,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 9600,
+      "track": 3,
+      "event": {
+        "BarMarker": {
+          "bar": 6
+        }
+      }
+    },
+    {
+      "tick": 10464,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 10560,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 71,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 11424,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 71
+        }
+      }
+    },
+    {
+      "tick": 11520,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 11520,
+      "track": 3,
+      "event": {
+        "BarMarker": {
+          "bar": 7
+        }
+      }
+    },
+    {
+      "tick": 11520,
+      "track": 3,
+      "event": {
+        "PatternBoundary": {
+          "track": 3,
+          "pattern_name": "root_walk"
+        }
+      }
+    },
+    {
+      "tick": 12384,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 12480,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 13344,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 13440,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 67,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 13440,
+      "track": 3,
+      "event": {
+        "BarMarker": {
+          "bar": 8
+        }
+      }
+    },
+    {
+      "tick": 14304,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 67
+        }
+      }
+    },
+    {
+      "tick": 14400,
+      "track": 3,
+      "event": {
+        "NoteOn": {
+          "channel": 2,
+          "note": 71,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 15264,
+      "track": 3,
+      "event": {
+        "NoteOff": {
+          "channel": 2,
+          "note": 71
+        }
+      }
+    }
+  ]
+}

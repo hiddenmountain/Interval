@@ -1,0 +1,70 @@
+{
+  "name": "runs",
+  "steps": 2,
+  "unit": [
+    1,
+    4
+  ],
+  "velocity": 84,
+  "gate": 0.9,
+  "octave": 4,
+  "transforms": [],
+  "body": {
+    "Steps": [
+      {
+        "tokens": [
+          {
+            "Subdivision": {
+              "tokens": [
+                {
+                  "Degree": {
+                    "degree": 1,
+                    "accidental": 0,
+                    "octave": null,
+                    "annotations": []
+                  }
+                },
+                {
+                  "Degree": {
+                    "degree": 2,
+                    "accidental": 0,
+                    "octave": null,
+                    "annotations": []
+                  }
+                },
+                {
+                  "Degree": {
+                    "degree": 3,
+                    "accidental": 0,
+                    "octave": null,
+                    "annotations": []
+                  }
+                },
+                {
+                  "Degree": {
+                    "degree": 4,
+                    "accidental": 0,
+                    "octave": null,
+                    "annotations": []
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "tokens": [
+          {
+            "Degree": {
+              "degree": 5,
+              "accidental": 0,
+              "octave": null,
+              "annotations": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

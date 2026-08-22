@@ -1,0 +1,238 @@
+{
+  "ppq": 480,
+  "events": [
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 120.0
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 0,
+      "event": {
+        "TimeSignature": {
+          "numerator": 4,
+          "denominator": 4
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "TrackName": {
+          "name": "melody"
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 60,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "BarMarker": {
+          "bar": 1
+        }
+      }
+    },
+    {
+      "tick": 0,
+      "track": 1,
+      "event": {
+        "PatternBoundary": {
+          "track": 1,
+          "pattern_name": "p"
+        }
+      }
+    },
+    {
+      "tick": 432,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 60
+        }
+      }
+    },
+    {
+      "tick": 480,
+      "track": 1,
+      "event": {
+        "NoteOn": {
+          "channel": 0,
+          "note": 64,
+          "velocity": 84
+        }
+      }
+    },
+    {
+      "tick": 912,
+      "track": 1,
+      "event": {
+        "NoteOff": {
+          "channel": 0,
+          "note": 64
+        }
+      }
+    },
+    {
+      "tick": 2160,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 120.078125
+        }
+      }
+    },
+    {
+      "tick": 2400,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 120.3125
+        }
+      }
+    },
+    {
+      "tick": 2640,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 120.703125
+        }
+      }
+    },
+    {
+      "tick": 2880,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 121.25
+        }
+      }
+    },
+    {
+      "tick": 3120,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 121.953125
+        }
+      }
+    },
+    {
+      "tick": 3360,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 122.8125
+        }
+      }
+    },
+    {
+      "tick": 3600,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 123.828125
+        }
+      }
+    },
+    {
+      "tick": 3840,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 125.0
+        }
+      }
+    },
+    {
+      "tick": 4080,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 126.328125
+        }
+      }
+    },
+    {
+      "tick": 4320,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 127.8125
+        }
+      }
+    },
+    {
+      "tick": 4560,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 129.453125
+        }
+      }
+    },
+    {
+      "tick": 4800,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 131.25
+        }
+      }
+    },
+    {
+      "tick": 5040,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 133.203125
+        }
+      }
+    },
+    {
+      "tick": 5280,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 135.3125
+        }
+      }
+    },
+    {
+      "tick": 5520,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 137.578125
+        }
+      }
+    },
+    {
+      "tick": 5760,
+      "track": 0,
+      "event": {
+        "Tempo": {
+          "bpm": 140.0
+        }
+      }
+    }
+  ]
+}

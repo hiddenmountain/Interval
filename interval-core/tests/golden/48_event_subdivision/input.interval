@@ -1,0 +1,7 @@
+@ppq 480
+
+@pattern sub steps=1 unit=1/4
+(C4 E4 G4)
+
+@track piano ch=1
+play: sub

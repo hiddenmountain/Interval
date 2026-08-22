@@ -1,0 +1,33 @@
+@title "Conditional Drum Grid"
+@ppq 480
+@bpm 110
+@ts 4/4
+@seed 19
+
+@drummap kit
+  kick = 36
+  snare = 38
+  hh = 42
+  ohh = 46
+
+@pattern beat steps=16 unit=1/16
+kick+hh
+hh
+hh
+hh
+snare+hh
+hh
+hh
+hh
+kick+hh
+hh
+kick[every:2]
+hh
+snare+ohh[cond:3:4]
+hh[prob:0.5]
+hh[pre]
+hh
+
+@track rhythm
+  ch=10 type=drums drummap=kit vel=95
+  play: beat * 8

@@ -1,0 +1,12 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@scale
+root=C mode=major * 2
+root=A mode=minor
+
+@pattern p unit=1/4: ^1 ^3 ^5 ^7
+
+@track m ch=1
+play: p * 3

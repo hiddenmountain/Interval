@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+env:
+  CARGO_TERM_COLOR: always
+  RUSTFLAGS: -Dwarnings
+
+jobs:
+  test:
+    name: Build & test
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      # midir needs ALSA headers on Linux
+      - name: Install ALSA dev libs
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y libasound2-dev
+      - run: cargo build --workspace
+      - run: cargo test --workspace
+
+  lint:
+    name: Clippy & rustfmt
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy, rustfmt
+      - uses: Swatinem/rust-cache@v2
+      - run: sudo apt-get update && sudo apt-get install -y libasound2-dev
+      - run: cargo fmt --all --check
+      - run: cargo clippy --workspace --all-targets -- -D clippy::all
+
+  wasm:
+    name: WASM targets
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo build --target wasm32-unknown-unknown -p interval-core
+      - run: cargo build --target wasm32-unknown-unknown -p interval-smf
+      # interval-wasm is a standalone workspace; build it explicitly so it can't rot
+      - run: cargo build --release --target wasm32-unknown-unknown
+        working-directory: interval-wasm
+
+  msrv:
+    name: MSRV (1.87)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@1.87
+      - uses: Swatinem/rust-cache@v2
+      - run: sudo apt-get update && sudo apt-get install -y libasound2-dev
+      - run: cargo build --workspace

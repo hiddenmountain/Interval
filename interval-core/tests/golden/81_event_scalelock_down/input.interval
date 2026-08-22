@@ -1,0 +1,12 @@
+@ppq 480
+
+@scale root=C mode=major
+
+@pattern chromatic steps=4 unit=1/4
+C4
+Db4
+E4
+n66
+
+@track keys ch=1
+play: chromatic -> scale_lock(mode=down)

@@ -1,0 +1,34 @@
+{
+  "patterns": [
+    {
+      "name": "scale",
+      "steps": [
+        {
+          "pitches": [
+            60
+          ]
+        },
+        {
+          "pitches": [
+            62
+          ]
+        },
+        {
+          "pitches": [
+            64
+          ]
+        },
+        {
+          "pitches": [
+            65
+          ]
+        },
+        {
+          "pitches": [
+            67
+          ]
+        }
+      ]
+    }
+  ]
+}

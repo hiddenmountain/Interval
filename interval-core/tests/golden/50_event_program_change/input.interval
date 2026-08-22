@@ -1,0 +1,7 @@
+@ppq 480
+
+@pattern note steps=1 unit=1/4
+C4
+
+@track flute ch=1 prog=73
+play: note

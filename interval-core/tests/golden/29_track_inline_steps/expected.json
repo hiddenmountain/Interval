@@ -1,0 +1,76 @@
+{
+  "name": "bass",
+  "channel": 2,
+  "program": 32,
+  "unit": null,
+  "octave": 4,
+  "velocity": 84,
+  "gate": 0.9,
+  "shift": null,
+  "lshift": null,
+  "follow": null,
+  "voice": "Close",
+  "inv": {
+    "Fixed": 0
+  },
+  "seed": null,
+  "mode": null,
+  "rate": null,
+  "swing": null,
+  "swing_unit": null,
+  "start": null,
+  "is_drum": false,
+  "drummap": null,
+  "content": {
+    "Steps": [
+      {
+        "tokens": [
+          {
+            "Degree": {
+              "degree": 1,
+              "accidental": 0,
+              "octave": null,
+              "annotations": []
+            }
+          }
+        ]
+      },
+      {
+        "tokens": [
+          {
+            "Degree": {
+              "degree": 5,
+              "accidental": 0,
+              "octave": null,
+              "annotations": []
+            }
+          }
+        ]
+      },
+      {
+        "tokens": [
+          {
+            "Degree": {
+              "degree": 3,
+              "accidental": 0,
+              "octave": null,
+              "annotations": []
+            }
+          }
+        ]
+      },
+      {
+        "tokens": [
+          {
+            "Degree": {
+              "degree": 1,
+              "accidental": 0,
+              "octave": null,
+              "annotations": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

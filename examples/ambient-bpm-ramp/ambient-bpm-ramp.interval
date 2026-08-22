@@ -1,0 +1,44 @@
+@title "Ambient BPM Ramp"
+@ppq 480
+@bpm 72 * 2 | 84 * 2 | 90
+@ts 4/4
+@seed 42
+
+@scale root=D mode=dorian
+
+@harmony pad
+im7 | IVm7 | im7 | bVII7
+
+@pattern shimmer steps=16 unit=1/16
+%1
+%2
+%3
+%4
+%3
+%2
+%1
+%4
+%3
+%4
+%3
+%2
+%1
+%2
+%3
+%1
+
+@pattern bass_hold steps=4 unit=1/4
+%1
+~
+~
+~
+
+@track keys
+  ch=1 prog=88 vel=72 gate=0.84 oct=5
+  follow=pad
+  play: shimmer -> evolve(0.10) -> vel_curve(wave=sine, min=40, max=100) -> echo(1/8, 1, 0.50) * 4
+
+@track bass
+  ch=2 prog=38 vel=70 gate=0.95 oct=2
+  follow=pad
+  play: bass_hold * 4

@@ -1,0 +1,10 @@
+@ppq 480
+
+@pattern pad steps=4 unit=1/4 gate=1.0
+C4+E4+G4
+~
+.
+.
+
+@track piano ch=1
+play: pad

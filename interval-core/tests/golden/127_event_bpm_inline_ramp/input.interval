@@ -1,0 +1,10 @@
+@ppq 480
+@bpm 120 * 1 | 140 * 2 ramp=ease_in | 140
+@ts 4/4
+
+@pattern p steps=2 unit=1/4
+C4
+E4
+
+@track melody ch=1
+play: p

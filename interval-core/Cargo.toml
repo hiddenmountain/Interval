@@ -1,0 +1,21 @@
+[package]
+name = "interval-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+description = "Interval compiler core: lexer, parser, AST, harmony index, transforms, and event stream emission"
+readme = "../README.md"
+keywords = ["midi", "music", "compiler", "language", "composition"]
+categories = ["multimedia::audio", "compilers", "parser-implementations"]
+
+[dependencies]
+logos = "0.14"
+thiserror = "2"
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1"
+anyhow = "1"

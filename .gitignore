@@ -1,0 +1,10 @@
+/target/
+interval-wasm/target/
+/.DS_Store
+**/.DS_Store
+
+# Editor / local tooling
+/.idea/
+/.vscode/
+*.swp
+**/*.rs.bk

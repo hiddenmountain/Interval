@@ -1,0 +1,98 @@
+@title "002"
+@ppq 480
+@bpm 68
+@ts 4/4
+@seed 1968
+
+@scale root=C mode=minor
+
+@harmony main
+Cm9 | Cm9 | Cm9 | Cm9
+Cm9 | Cm9 | Fm9 | Fm9
+
+@pattern stutter unit=1/16
+^5[ratch:2]
+^5
+^7[ratch:3 ratch_decay:0.7]
+^5
+^4
+^4[ratch:2]
+^3
+.
+^5[ratch:2]
+^8[glide:0.4]
+^7[prob:0.7]
+^5
+(^4 ^3 ^4)
+^5[ratch:3]
+^3
+{^1,^3,^4}
+
+@pattern stutter_rev = stutter -> reverse
+@pattern whisper = stutter -> subset(1, 4, 7, 10, 13) -> shift_oct(1)
+@pattern sop_line unit=1/2
+^5[glide]
+~
+^7
+~
+^8[glide:0.5]
+~
+^7
+~
+
+@pattern pad unit=1/1
+$chord[dyn:25->85]
+~
+
+@pattern counter_cell unit=1/4
+%1+%2+%3
+.
+%1+%2+%3
+.
+
+@pattern descant_cell unit=1/8
+^8[once]
+.
+^6[every:2]
+.
+^5
+.
+^6[prob:0.5]
+.
+
+@track lead
+  ch=1 prog=54 oct=5 vel=92 gate=0.85 follow=main
+  play: stutter *~ 3 >> (stutter -> rotate(4)) ~>> stutter_rev * 4 -> vary(0.4) -> echo(1/16, 2, 0.5) -> humanize(4%, 0.3)
+
+@track soprano
+  ch=2 prog=52 oct=5 vel=80 gate=0.95 follow=main
+  play: sop_line * 2 -> phrase(0.6, 0.85) -> humanize(3%, 0.25)
+
+@track choir_pad
+  ch=3 prog=53 oct=4 vel=68 gate=0.98 voice=open inv=auto follow=main
+  play: pad * 4 -> vel_curve(wave=ramp, min=45, max=100)
+
+@track bass_voice
+  ch=4 prog=53 oct=2 vel=72 gate=0.97 unit=1/1 follow=main
+  steps:
+    %1
+    ~
+    %1
+    ~
+    %1
+    ~
+    %1
+    ~
+
+
+@track counter
+  ch=5 prog=52 oct=3 vel=64 gate=0.70 voice=triad start=3 follow=main
+  play: counter_cell * 6 -> arp(pattern=updown) -> evolve(0.12)
+
+@track descant
+  ch=6 prog=54 oct=6 vel=58 gate=0.60 mode=dorian follow=main
+  play: descant_cell * 8 -> humanize(6%, 0.4)
+
+@track whisper
+  ch=7 prog=54 oct=6 vel=50 gate=0.50 follow=main
+  play: whisper * 4 >> whisper@2.0 * 8 -> humanize(8%, 0.45)

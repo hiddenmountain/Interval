@@ -1,0 +1,18 @@
+[package]
+name = "interval-rt"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+description = "Interval real-time scheduler: live MIDI playback with hot-swap"
+readme = "../README.md"
+keywords = ["midi", "music", "realtime", "composition"]
+categories = ["multimedia::audio"]
+
+[dependencies]
+interval-core = { version = "0.10.0", path = "../interval-core" }
+midir = "0.10"
+arc-swap = "1"
+thiserror = "2"

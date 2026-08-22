@@ -1,0 +1,12 @@
+@ppq 480
+
+@scale root=C mode=major
+
+@pattern notes steps=4 unit=1/4
+C4
+D4
+E4
+F4
+
+@track keys ch=1
+play: notes -> scale_lock(scale=dorian, root=C, mode=down)

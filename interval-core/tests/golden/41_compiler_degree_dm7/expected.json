@@ -1,0 +1,29 @@
+{
+  "patterns": [
+    {
+      "name": "bass",
+      "steps": [
+        {
+          "pitches": [
+            60
+          ]
+        },
+        {
+          "pitches": [
+            64
+          ]
+        },
+        {
+          "pitches": [
+            67
+          ]
+        },
+        {
+          "pitches": [
+            71
+          ]
+        }
+      ]
+    }
+  ]
+}

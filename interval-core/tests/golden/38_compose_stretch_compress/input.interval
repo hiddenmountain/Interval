@@ -1,0 +1,7 @@
+@pattern fast steps=2 unit=1/8
+^1
+^5
+
+@pattern slow = fast -> stretch(2)
+
+@pattern quick = slow -> compress(2)

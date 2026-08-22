@@ -1,0 +1,13 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+@scale root=C mode=major * 4 | root=G mode=major
+
+@harmony
+I | IV | V | I | I | IV | V | I
+
+@pattern p steps=1 unit=1/1
+%1
+
+@track melody ch=1
+play: p * 8

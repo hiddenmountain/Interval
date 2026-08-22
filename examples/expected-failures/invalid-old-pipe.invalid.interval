@@ -1,0 +1,10 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@pattern p steps=1 unit=1/4
+C4
+
+@track lead
+  ch=1
+  play: p | reverse

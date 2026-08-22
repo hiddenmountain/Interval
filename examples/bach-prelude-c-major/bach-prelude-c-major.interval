@@ -1,0 +1,34 @@
+@title "Bach Prelude in C Major (Compact Study)"
+@ppq 480
+@bpm 84
+@ts 4/4
+@seed 1722
+
+@scale root=C mode=major
+
+@harmony main
+Imaj7 | ii7 | V7 | Imaj7
+vi7 | ii7 | V7 | Imaj7
+
+@pattern roll_bar steps=8 unit=1/8
+%1
+%2
+%3
+%4
+%3
+%2
+%3
+%4
+
+@pattern pedal steps=1 unit=1/1
+%1
+
+@track piano
+  ch=1 prog=1 vel=72 gate=0.92 oct=4 voice=close inv=auto
+  follow=main
+  play: roll_bar * 8
+
+@track bass
+  ch=2 prog=43 vel=64 gate=0.98 oct=2
+  follow=main
+  play: pedal * 8

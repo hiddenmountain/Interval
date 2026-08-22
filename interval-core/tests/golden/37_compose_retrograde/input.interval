@@ -1,0 +1,6 @@
+@pattern up steps=3 unit=1/4
+^1
+^3
+^5
+
+@pattern retro = up -> retrograde

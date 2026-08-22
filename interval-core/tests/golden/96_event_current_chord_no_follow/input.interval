@@ -1,0 +1,9 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@pattern comp steps=1 unit=1/4
+$chord
+
+@track keys ch=1
+play: comp

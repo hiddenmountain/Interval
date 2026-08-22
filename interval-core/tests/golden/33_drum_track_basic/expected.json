@@ -1,0 +1,37 @@
+{
+  "name": "perc",
+  "channel": 10,
+  "program": null,
+  "unit": null,
+  "octave": 4,
+  "velocity": 95,
+  "gate": 0.9,
+  "shift": null,
+  "lshift": null,
+  "follow": null,
+  "voice": "Close",
+  "inv": {
+    "Fixed": 0
+  },
+  "seed": null,
+  "mode": null,
+  "rate": null,
+  "swing": null,
+  "swing_unit": null,
+  "start": null,
+  "is_drum": true,
+  "drummap": "kit",
+  "content": {
+    "Play": {
+      "Repeat": {
+        "pattern": {
+          "Ref": {
+            "name": "groove",
+            "rate": null
+          }
+        },
+        "count": 4
+      }
+    }
+  }
+}

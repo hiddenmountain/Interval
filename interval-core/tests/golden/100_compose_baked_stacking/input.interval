@@ -1,0 +1,6 @@
+@pattern base steps=3 unit=1/4 -> transpose(2)
+C4
+E4
+G4
+
+@pattern chain = base -> reverse

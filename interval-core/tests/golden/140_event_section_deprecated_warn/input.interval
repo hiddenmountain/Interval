@@ -1,0 +1,16 @@
+@ppq 480
+@bpm 120
+@ts 4/4
+
+@scale root=C mode=major
+
+@harmony main
+Cmaj7 | Am7
+section: bar=3 mode=dorian root=D
+Dm7 | G7
+
+@pattern melody steps=1 unit=1/1
+^1
+
+@track mel ch=1 follow=main
+play: melody
