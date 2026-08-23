@@ -12,14 +12,18 @@ Interval is quite experimental. It was designed for sound installations and gene
 
 ## Installing
 
-Requires Rust 1.87+.
+Requires Rust 1.87+. On Linux, also install the ALSA headers first
+(`sudo apt install libasound2-dev` on Debian/Ubuntu); macOS and Windows need
+nothing extra.
+
+Install the `interval` binary straight from this repository:
 
 ```sh
-cargo install --path interval-cli
+cargo install --git https://github.com/hiddenmountain/Interval interval-cli
 ```
 
-This installs the `interval` binary. Or build in place (`cargo build --release`;
-the binary is at `target/release/interval`).
+Or, from a clone: `cargo install --path interval-cli`, or build in place
+(`cargo build --release`; the binary is at `target/release/interval`).
 
 ## Usage
 
