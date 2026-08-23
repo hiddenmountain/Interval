@@ -12,11 +12,18 @@ Interval is quite experimental. It was designed for sound installations and gene
 
 ## Installing
 
-Requires Rust 1.87+. On Linux, also install the ALSA headers first
-(`sudo apt install libasound2-dev` on Debian/Ubuntu); macOS and Windows need
-nothing extra.
+**Dependencies:** Rust 1.87+ ([rustup.rs](https://rustup.rs)), and on Linux the
+ALSA headers for MIDI output. macOS and Windows need nothing beyond Rust.
 
-Install the `interval` binary straight from this repository:
+```sh
+# Rust toolchain (if you don't have it)
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Linux only: ALSA headers (Debian/Ubuntu; use alsa-lib-devel on Fedora)
+sudo apt install libasound2-dev
+```
+
+**Install** the `interval` binary straight from this repository:
 
 ```sh
 cargo install --git https://github.com/hiddenmountain/Interval interval-cli
