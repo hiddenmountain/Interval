@@ -4,6 +4,8 @@ A step-first harmonic composition language that compiles to MIDI.
 
 Interval defines three strictly ordered layers — **Harmony**, **Patterns**, **Tracks** — where degree-relative notation in patterns resolves against a shared harmonic timeline at compile time to produce a deterministic MIDI event stream. Change one chord in the harmony and every track updates. Transpose the entire piece by changing a single `@scale root=` value.
 
+Interval is quite experimental. It was designed for sound installations and generative music — pieces that run unattended, vary deterministically from a seed, and follow a harmonic plan with no DAW in sight. But it composes just as well as it generates: because everything is plain text, it also works as a live-coding system (edit the source while it plays; changes hot-swap in at the next bar) and as a terminal-first composition tool for drafting complex harmonic ideas quickly — often faster than a piano roll allows.
+
 > **Status:** pre-1.0. The language and APIs are still settling; see
 > [docs/spec](docs/spec/00_toc.md) for the current language specification and
 > [docs/design.md](docs/design.md) for the design rationale.
